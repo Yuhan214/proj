@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/lvgae/OneDrive/桌面/106-personal-repo-Yuhan214/Homework/HW2_FirstGame/Content/File.spritefont","C:/Users/lvgae/OneDrive/桌面/106-personal-repo-Yuhan214/Homework/HW2_FirstGame/Content/bin/DesktopGL/Content/File.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.1361465
+"C:/Users/lvgae/OneDrive/桌面/106-personal-repo-Yuhan214/Homework/HW2_FirstGame/Content/PlayerImageCat.png","C:/Users/lvgae/OneDrive/桌面/106-personal-repo-Yuhan214/Homework/HW2_FirstGame/Content/bin/DesktopGL/Content/PlayerImageCat.xnb","TextureProcessor","Texture2DContent",20893,473173,0.1498618
+"C:/Users/lvgae/OneDrive/桌面/106-personal-repo-Yuhan214/Homework/HW2_FirstGame/Content/RedFish.png","C:/Users/lvgae/OneDrive/桌面/106-personal-repo-Yuhan214/Homework/HW2_FirstGame/Content/bin/DesktopGL/Content/RedFish.xnb","TextureProcessor","Texture2DContent",60415,519965,0.0090943
