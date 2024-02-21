@@ -111,16 +111,19 @@ namespace HW2_FirstGame
 
                     for (int i = 0; i < collectibles.Count; i++)
                     {
-                        if (collectibles[i].CheckCollision(collectibles[i]))
+                        if (collectibles[i].CheckCollision(player))
                         {
                             player.LevelScore += 10; // Reward the player
+                            player.TotalScore += 10;
                             collectibles.Remove(collectibles[i]); // Remove the collected items from the collectibles list
+                            i--;
                         }
                     }
 
                     // If time run out of time
                     if (timer <= 0)
                     {
+                        player.TotalScore += player.LevelScore;
                         currentGameState = GameState.GameOver;
                     }
                     // If all collectibles been caught
@@ -228,7 +231,7 @@ namespace HW2_FirstGame
                 Collectible newCollectible = 
                     new Collectible(
                         collectiblesTexture,
-                        new Rectangle
+                        new Rectangle 
                         (x, y, 
                         collectiblesTexture.Width, 
                         collectiblesTexture.Height)
@@ -236,6 +239,8 @@ namespace HW2_FirstGame
 
                 // Add each to the list
                 collectibles.Add(newCollectible);
+
+
             }
         }
 
